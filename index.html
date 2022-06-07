@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objects</title>
+</head>
+<body>
+
+    <script>
+
+        const miAuto = {
+            marca:'bmw',
+            año: 99,
+            nuevo: true, 
+        }
+            let propertykey = 'modelo';
+            miAuto.propertykey= 'xr200'
+            let anotherpropertykey= 'precio'  // tanto Bracket(pref) cómo Dot notation.
+            miAuto[anotherpropertykey] = 500000  // 500.000 ?
+            let nextproperty = 'color'
+            miAuto[nextproperty] = 'black'
+            
+            
+            // for in VER DENUEVOO
+            for (let propiedad in miAuto) {
+                console.log("Propiedad " + propiedad + " es igual: " + miAuto[propiedad]);
+            }
+
+
+
+    </script>
+
+    
+</body>
+</html>
