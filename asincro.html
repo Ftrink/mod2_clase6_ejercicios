@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object clase 6 m2</title>
+</head>
+<body>
+    
+
+    <script>
+
+
+        let peliculas = [{
+            titulo: 'spawn',
+            rating: 5,
+            lohasVisto: true
+            },
+
+            { titulo: 'lord of the ring', rating: 4, lohasVisto: false },
+
+            { titulo: 'taxy para tres', rating: 3, lohasVisto: true },
+
+            { titulo: 'tears of the sun', rating: 2, lohasVisto: false }
+
+        ]
+
+        for (let i = 0; i < peliculas.length; i++) {
+
+            if (peliculas[i].lohasVisto == true) {
+                (console.log('Viste "' + peliculas[i].titulo + '" - ' + peliculas[i].rating + ' estrellas'))
+            } else 
+                (console.log('No viste "' + peliculas[i].titulo + '" - ' + peliculas[i].rating + ' estrellas'))
+            
+        }
+
+
+        //DOS
+        /*let intento = [{ PRUEBAS
+            numero: 5,
+            palabra: 'Hi'
+        }]*/
+
+
+            
+        function arregloDeObjetos() {    
+            let pal = 'hola'                    
+            let arre = [];
+            for (let i = 0; i <num ; i++) {
+                let obt = {}            // intento obj fuera
+                obt[pal] = i
+                arre.push(obt)   //arre.push({pal,i})
+            
+            }
+            return (arre)    
+        }
+
+
+
+    
+/*reciba un número y una palabra como parámetro y devuelva un arreglo de objetos que tenga: una
+propiedad llamada como la palabra pasada por parámetro y el valor del número y
+sus anteriores.
+
+arregloDeObjetos(5, “hola”) debe retornar [{hola: 1}, {hola: 2},
+{hola: 3}, {hola: 4}, {hola: 5 }]
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
